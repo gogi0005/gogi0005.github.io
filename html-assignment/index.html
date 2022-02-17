@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
         <title> My first Website</title>
     </head>
     <body>
         <header>
-            <h1>Kamalesh Gogi</h1>
+            <h1 class="site-title" >Kamalesh Gogi</h1>
         </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#quotes">Quotes</a></li>
+                <li><a href="#personal">Details</a></li>
+                <li><a href="notes.html">Notes</a></li>
+            </ul>
+        </nav>
         <hr>
         <main>
             <article>
-            <h2>About me</h2>
+            <h2 id="aboutme">About me</h2>
             <p>
                I am a Graphic Designer from India, I consider myself a design geek! <br>
                I am also passionate in starting a design agency named <em>MERCURY Designs</em>.<br> 
@@ -37,27 +49,30 @@
                 <li>I also love Watching Horror and Criminal investigation Shows.</li>
             </ul>
             </section>
-
+            <section id="quotes">
             <H2>Motivational Quotes</H2>
             <blockquote>
                 “Your legacy is being written by yourself. Make the right decisions.”
                 <cite>- Gary Vaynerchuk</cite>
             </blockquote>
-            <section>
-            <h2>Porsonal Details</h2>
+            </section>
+            <section id="personal">
+            <h2>Personal Details</h2>
             <p>This is me and my pet "Snowy"</p>
-               <img src="images/kamaleshgogi.jpg" alt="kamaleshgogiandsnowy">
+               <img id="my-image" src="images/kamaleshgogi.jpg" alt="kamaleshgogiandsnowy">
                <br>
                <p>Snowy is a male persian cat.</p>
             <h2>Hobbies</h2>
-            <ol>
+            <ol class="hobbies" >
                 <li>I like sketch cartoon characters.</li>
                 <li>I also love playing FIFA on my playstation.</li>
                 <li>I also have keen interest in fashion desgining <abbr title="that is">i.e</abbr> i would research about the feild of fashion.</li>
                 <li>Recently i have also started collecting Soccer trading cards.</li>
             </ol>
             </section>
-            <h2><a href="notes.html">Web development Notes</a></h2>
+            <section class="links">
+            <a id="button" href="notes.html">Web Development Notes</a>
+            </section>
             <address>
                 <p>Uppal,Hyderabad,<br>
                 Telangana-501301,
