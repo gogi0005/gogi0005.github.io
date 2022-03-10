@@ -1,0 +1,44 @@
+Header
+Image tag with heading used for header content
+
+Header Style
+Position property used to overlay text on top of the image
+
+Files and folder structure
+All files are added in proper folders
+
+File and folder names
+File and folder names are following the recommendations
+
+Form inputs/labels
+All inputs are linked to relative labels
+
+Overall Design
+The HTML CSS site is matching exactly with the provided mock
+
+HTML
+HTML is valid, Well Formatted and with comments
+
+CSS
+CSS is valid, Well Formatted and with comments
+
+Submission
+Proper URL for the GitHub Pages site is submitted
+
+Criteria
+
+Article
+Text is wrapping around the image
+
+Facts
+Proper syntax used for listing the facts
+
+Folder Name
+Folder name for the project is as per the requirements
+
+
+      https://imdac.github.io/mtm6130/content/
+
+            outer main : #aad4cf
+
+            wrapper : #d4e9e7

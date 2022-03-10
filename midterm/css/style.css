@@ -1,0 +1,135 @@
+html{ 
+    font-size: 20px;
+}
+
+body{
+    background-repeat : no-repeat;
+    background-size: cover;
+    /* background-size: 257px 1000px; */
+    /* background-position: 20px 100px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
+    /* font-style: italic; */
+    color: black;
+}
+
+.wrapper{
+    max-width: 700px;
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 100%;
+    background-color: #d4e9e7;
+    padding: 10px
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2,h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+div h4 {
+    font-size: 1rem;
+    padding: 10px 0px 10px 0px;
+}
+
+p, li {
+    font-size: 0.8rem;
+}
+
+.header-image {
+  max-width: 100%;
+  position: relative;
+}
+
+
+body{
+    background-color: #aad4cf;
+}
+
+section {
+    padding-top: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: -10px -10px 10px -10px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  bottom: 0%;
+}
+
+nav {
+    width: 100%
+}
+
+.nav ol {
+    list-style-type: none;
+    text-align: center;
+}
+nav li + li:before{
+    content: " | ";
+    padding: 0 20px;
+}
+.nav-link {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+li.nav-link a {
+    padding: 60px;
+    text-transform: uppercase; 
+    text-decoration: none !important;
+    color: black
+}
+
+.article-image {
+    width: 300px;
+    float: left; 
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.bulleted-list {
+	list-style-type: disc;
+    margin-left: 1rem;
+    margin-top: 50px;
+}
+
+.contact-form{
+    border: solid;
+    padding: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+textarea {
+    height: 130px;
+}
+
+.submit-button {
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: transparent;
+    text-decoration: #111212;
+    border: 2px solid #111212;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: right
+}
